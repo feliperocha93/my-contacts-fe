@@ -20,12 +20,16 @@ Learn how to develop a useful ReactJs project by integrating it with a REST API.
 - Create React App
 - Controlled Components
 - Custom Hooks
+- Consume a REST API
 
 ## Other Lessons 🔖😲
 - EsLint
 - Styled Components
 - React Portals
 - Uncontrolled Components
+- SOP
+- CORS
+
 ##
 
 <img align="center" alt="React" title="React" height="60" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
