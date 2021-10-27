@@ -19,6 +19,7 @@ Learn how to develop a useful ReactJs project by integrating it with a REST API.
 - React
 - Create React App
 - Controlled Components
+- Custom Hooks
 
 ## Other Lessons 🔖😲
 - EsLint
