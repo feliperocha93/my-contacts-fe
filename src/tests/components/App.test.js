@@ -1,9 +1,8 @@
 /* eslint-disable no-undef */
 // TODO: Check if is possible to keep this imports in setup file
 import { screen, render } from '@testing-library/react';
-import '@testing-library/jest-dom';
 
-import App from './index';
+import App from '../../components/App/index';
 
 // TODO: Move mocks components to separared folder
 jest.mock('../../Routes', () => function DummyRoutes() {
@@ -14,7 +13,7 @@ jest.mock('../../Routes', () => function DummyRoutes() {
   );
 });
 
-jest.mock('../Header', () => function DummyHeader() {
+jest.mock('../../components/Header', () => function DummyHeader() {
   return (
     <div date-testid="header-component">
       <span>DummyRoutes</span>
