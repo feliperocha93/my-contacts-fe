@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <ThemeProvider theme={defaultTheme}>
         <GlobalStyles />
-        <Container>
+        <Container data-testid="app-component">
           <Header />
           <Routes />
         </Container>
