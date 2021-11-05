@@ -1,5 +1,4 @@
 /* eslint-disable no-undef */
-// TODO: Check if is possible to keep this imports in setup file
 import { screen, render } from '@testing-library/react';
 
 import App from '../../components/App/index';
