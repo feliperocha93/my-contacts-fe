@@ -1,6 +1,6 @@
 export default function MockRoutes() {
   return (
-    <div date-testid="dummy-routes">
+    <div data-testid="routes-component">
       <span>DummyRoutes</span>
     </div>
   );

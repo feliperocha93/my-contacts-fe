@@ -1,6 +1,6 @@
 export default function MockHeader() {
   return (
-    <div date-testid="header-component">
+    <div data-testid="header-component">
       <span>DummyRoutes</span>
     </div>
   );
