@@ -5,8 +5,8 @@ import App from '../../components/App/index';
 jest.mock('../../Routes', () => require('../mocks/MockRoutes'));
 jest.mock('../../components/Header', () => require('../mocks/MockHeader'));
 
-describe('App Component', () => {
-  describe(('Rendering testing'), () => {
+describe('COMPONENT: App', () => {
+  describe(('Rendering tests:'), () => {
     it('should render', () => {
       const { getByTestId } = render(<App />);
       const element = getByTestId('app-component');

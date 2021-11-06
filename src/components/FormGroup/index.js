@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 export default function FormGroup({ children, error }) {
   return (
-    <Container>
+    <Container data-testid="formgroup-component">
       {children}
       { error && <small>{error}</small>}
     </Container>
