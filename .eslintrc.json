@@ -29,5 +29,14 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "class-methods-use-this": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js"],
+      "rules": {
+        "global-require": "off",
+        "no-undef": "off"
+      }
+    }
+  ]
 }
