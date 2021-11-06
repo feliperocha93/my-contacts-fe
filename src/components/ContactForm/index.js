@@ -12,7 +12,7 @@ import Input from '../Input';
 import Select from '../Select';
 import Button from '../Button';
 
-export default function ContatcForm({ buttonLabel }) {
+export default function ContactForm({ buttonLabel }) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
@@ -109,6 +109,6 @@ export default function ContatcForm({ buttonLabel }) {
   );
 }
 
-ContatcForm.propTypes = {
+ContactForm.propTypes = {
   buttonLabel: PropTypes.string.isRequired,
 };

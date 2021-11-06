@@ -1,6 +1,6 @@
 import PageHeader from '../../components/PageHeader';
 
-import ContatcForm from '../../components/ContatcForm';
+import ContactForm from '../../components/ContactForm';
 
 export default function EditContact() {
   return (
@@ -9,7 +9,7 @@ export default function EditContact() {
         title="Editar Felipe Rocha"
       />
 
-      <ContatcForm buttonLabel="Salvar alterações" />
+      <ContactForm buttonLabel="Salvar alterações" />
     </>
   );
 }
