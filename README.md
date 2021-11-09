@@ -7,7 +7,7 @@ $ git clone https://github.com/feliperocha93/my-contacts-fe.git
 
 $ cd my-contacts-fe
 
-$ yarn add
+$ yarn install
 
 $ yarn dev
 ```
